@@ -1,8 +1,19 @@
-ul.tasks {
-	width: 42rem;
-	margin: 1rem auto;
-	list-style-type: none;
-	padding: 0;
+div.wrapper {
+	width: 100%;
+
+	max-width: 42rem;
+	margin: 0 auto;
+
+	font-size: 1.2rem;
+	position: relative;
+
+	line-height: 1.8em;
+}
+
+span.block {
+	display: inline-block;
+	width: 0;
+	height: 0;
 }
 
 li.task {
